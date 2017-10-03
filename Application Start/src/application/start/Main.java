@@ -209,7 +209,7 @@ public class Main extends javax.swing.JFrame {
         filePaths.add(openChooser.getSelectedFile().getPath());
         javax.swing.JTextArea newTextArea = new javax.swing.JTextArea(text);
         newTextArea.setLineWrap(true);
-        javax.swing.JScrollPane scroll = new javaxswing.JScrollPane(newTextArea);
+        javax.swing.JScrollPane scroll = new javax.swing.JScrollPane(newTextArea);
         editTabs.addTab(openChooser.getSelectedFile().getName(), scroll);
     }                                        
 
@@ -250,7 +250,7 @@ public class Main extends javax.swing.JFrame {
     private void newBtnActionPerformed(java.awt.event.ActionEvent evt) {                                       
         javax.swing.JTextArea newTextArea = new javax.swing.JTextArea();
         newTextArea.setLineWrap(true);
-        javax.swing.JScrollPane scroll = new javaxswing.JScrollPane(newTextArea);
+        javax.swing.JScrollPane scroll = new javax.swing.JScrollPane(newTextArea);
         filePaths.add("notSet");
         editTabs.addTab("Untitled-" + editTabs.getTabCount(), scroll);
     }                                      
@@ -286,7 +286,7 @@ public class Main extends javax.swing.JFrame {
     private void newMenuActionPerformed(java.awt.event.ActionEvent evt) {                                        
         javax.swing.JTextArea newTextArea = new javax.swing.JTextArea();
         newTextArea.setLineWrap(true);
-        javax.swing.JScrollPane scroll = new javaxswing.JScrollPane(newTextArea);
+        javax.swing.JScrollPane scroll = new javax.swing.JScrollPane(newTextArea);
         filePaths.add("notSet");
         editTabs.addTab("Untitled-" + editTabs.getTabCount(), scroll);
     }                                       
@@ -337,7 +337,7 @@ public class Main extends javax.swing.JFrame {
         filePaths.add(openChooser.getSelectedFile().getPath());
         javax.swing.JTextArea newTextArea = new javax.swing.JTextArea(text);
         newTextArea.setLineWrap(true);
-        javax.swing.JScrollPane scroll = new javaxswing.JScrollPane(newTextArea);
+        javax.swing.JScrollPane scroll = new javax.swing.JScrollPane(newTextArea);
         editTabs.addTab(openChooser.getSelectedFile().getName(), scroll);
     }                                       
 
